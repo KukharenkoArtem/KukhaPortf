@@ -1,6 +1,11 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-
+import Header from './components/Menu/Header';
+import Home from './components/Menu/Home';
+import Image from 'next/image'
+import About from './components/Menu/About'; 
+import Portfolio from './components/Menu/Portfolio';
+import Footer from './components/Menu/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
